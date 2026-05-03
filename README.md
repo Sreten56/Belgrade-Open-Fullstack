@@ -16,16 +16,20 @@ Aplikacija je organizovana kao monorepo sa jasno razdvojenim slojevima:
 *   `/frontend` - React aplikacija za korisnički interfejs.
 
 ## Podešavanje i Pokretanje
+Da biste pokrenuli projekat lokalno, pratite ove korake:
 
 ### 1. Backend (Laravel)
-Uđite u folder gde se nalazi `artisan` fajl i pokrenite:
-```bash
+Pozicionirajte se u folder gde se nalazi artisan fajl (obično /backend ili dublje, zavisno od tvoje strukture) i pokrenite sledeće komande:
+#### Instalacija PHP zavisnosti
 composer install
+#### Kreiranje tabela i popunjavanje baze demo podacima
 php artisan migrate --seed
+#### Pokretanje lokalnog razvojnog servera
 php artisan serve
 
 ### 2. Frontend (React)
-Uđite u folder gde se nalazi package.json i pokrenite:
-```bash
+Otvorite novi terminal, pozicionirajte se u folder gde se nalazi package.json (obično /frontend) i pokrenite:
+#### Instalacija Node.js paketa
 npm install
+#### Pokretanje React aplikacije
 npm start
