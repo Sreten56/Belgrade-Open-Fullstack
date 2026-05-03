@@ -15,7 +15,7 @@ Aplikacija je organizovana kao monorepo sa jasno razdvojenim slojevima:
 *   `/backend` - Laravel API, migracije i seederi.
 *   `/frontend` - React aplikacija za korisnički interfejs.
 
-## 🛠️ Podešavanje i Pokretanje
+## Podešavanje i Pokretanje
 
 ### 1. Backend (Laravel)
 Uđite u folder gde se nalazi `artisan` fajl i pokrenite:
