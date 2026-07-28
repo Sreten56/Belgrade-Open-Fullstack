@@ -53,7 +53,7 @@ class Potvrda extends Mailable
     public function build()
     {
         return $this
-        ->from('cvmsistem@gmail.com')
+        ->from('email')
         ->to('user@example.com')
         ->subject('Potvrda poruka')
         ->view('emails.PotvrdaViwe');
